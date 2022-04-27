@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Taschenrechner</title>
+</head>
+<body class="bg-white-darker dark:bg-primary-darkest dark:text-white">
+  <div class="h-full">
+    <div class="flex w-full justify-between">
+      <!--reanmo logos-->
+      <img src="./imgs/reanmo-logo-dark.svg" alt="logo of reanmo" class="p-6 light-mode" id="logoDark">
+      <img src="./imgs/reanmo-logo-light.svg" alt="logo of reanmo" class="p-6 hidden dark-mode" id="logoLight">
+      <!--Darkmode Icons-->
+      <img src="./imgs/moon.svg" alt="logo color mode" id="iconDark" class="p-6 light-mode">
+      <img src="./imgs/sun.svg" alt="logo color mode" id="iconLight" class="p-6 hidden dark-mode">
+    </div>
+    
+    <div class="flex flex-col fixed bottom-0 w-full h-4/6">
+      <section class="math-result right-0 top-40">
+        <!-- Rechnung -->
+        <p class="text-primary pb-2 text-lg pr-5 text-right h-7" id="formular"></p>
+        <!-- Ergebnis -->
+        <p class="text-7xl pb-12 pr-4 text-right" id="result">0</p>
+      </section>
+      <section class="keyboard grid grid-cols-4 w-full shadow-[-2px_0px_4px_4px_rgba(0,20,39,0.13)] h-full">
+        <!--Clear Button-->
+        <div class="grid-el grid-el-white" id="clear">
+          <h1 class="text-3xl pointer-events-none">AC</h1>
+        </div>
+        <!--Negieren Button-->
+        <div class="grid-el grid-el-white" id="negation">
+          <h1 class="text-3xl pointer-events-none">+/-</h1>
+        </div>
+        <!--Modulo Button-->
+        <div class="grid-el grid-el-white" id="%">
+          <h1 class="text-3xl pointer-events-none">%</h1>
+        </div>
+        <!--Division Button-->
+        <div class="grid-el grid-el-blue" id="/">
+          <h1 class="text-3xl pointer-events-none">÷</h1>
+        </div>
+        <!--Zahl 7 Button-->
+        <div class="grid-el grid-el-white" id="7">
+          <h1 class="text-3xl pointer-events-none">7</h1>
+        </div>
+        <!--Zahl 8 Button-->
+        <div class="grid-el grid-el-white" id="8">
+          <h1 class="text-3xl pointer-events-none">8</h1>
+        </div>
+        <!--Zahl 9 Button-->
+        <div class="grid-el grid-el-white" id="9">
+          <h1 class="text-3xl pointer-events-none">9</h1>
+        </div>
+        <!--Multiplikation Button-->
+        <div class="grid-el grid-el-blue" id="*">
+          <h1 class="text-3xl pointer-events-none">x</h1>
+        </div>
+        <!--Zahl 4 Button-->
+        <div class="grid-el grid-el-white" id="4">
+          <h1 class="text-3xl pointer-events-none">4</h1>
+        </div>
+        <!--Zahl 5 Button-->
+        <div class="grid-el grid-el-white" id="5">
+          <h1 class="text-3xl pointer-events-none">5</h1>
+        </div>
+        <!--Zahl 6 Button-->
+        <div class="grid-el grid-el-white" id="6">
+          <h1 class="text-3xl pointer-events-none">6</h1>
+        </div>
+        <!--Subtraktion Button-->
+        <div class="grid-el grid-el-blue" id="-">
+          <h1 class="text-3xl pointer-events-none">-</h1>
+        </div>
+        <!--Zahl 1 Button-->
+        <div class="grid-el grid-el-white" id="1">
+          <h1 class="text-3xl pointer-events-none ">1</h1>
+        </div>
+        <!--Zahl 2 Button-->
+        <div class="grid-el grid-el-white" id="2">
+          <h1 class="text-3xl pointer-events-none">2</h1>
+        </div>
+        <!--Zahl 3 Button-->
+        <div class="grid-el grid-el-white" id="3">
+          <h1 class="text-3xl pointer-events-none">3</h1>
+        </div>
+        <!--Addition Button-->
+        <div class="grid-el grid-el-blue" id="+">
+          <h1 class="text-3xl pointer-events-none">+</h1>
+        </div>
+        <!--Zahl 0 Button-->
+        <div class="grid-el grid-el-white" id="0">
+          <h1 class="text-3xl pointer-events-none">0</h1>
+        </div>
+        <!--Komma Button-->
+        <div class="grid-el grid-el-white" id=".">
+          <h1 class="text-3xl pointer-events-none">,</h1>
+        </div>
+        <!--Gleichzeichen Button-->
+        <div class="grid-el grid-el-blue col-span-2" id="=">
+          <h1 class="text-3xl pointer-events-none">=</h1>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="../script.js"></script>
+</body>
+</html>
