@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33.609" height="27.933" viewBox="0 0 33.609 27.933">
+  <g id="Gruppe_3954" data-name="Gruppe 3954" transform="translate(-126.178 -379.067)">
+    <path id="plus" d="M405.775,93a.972.972,0,0,0-.972.972V99.8h-5.831a.972.972,0,1,0,0,1.944H404.8v5.831a.972.972,0,1,0,1.944,0v-5.831h5.831a.972.972,0,1,0,0-1.944h-5.831V93.972a.972.972,0,0,0-.972-.972Z" transform="translate(-271.822 286.067)" fill="#f5f5f5"/>
+    <g id="Icon" transform="translate(156.288 380.067) rotate(45)">
+      <path id="outline2" d="M1.2,35.7c-.661,0-1.2-.8-1.2-1.785V1.785C0,.8.535,0,1.2,0s1.2.8,1.2,1.785V33.912C2.392,34.9,1.858,35.7,1.2,35.7Z" fill="#f5f5f5"/>
+    </g>
+    <g id="Icon-2" data-name="Icon" transform="translate(159.788 401.608) rotate(90)">
+      <path id="outline2-2" data-name="outline2" d="M1.2,15.275c-.661,0-1.2-.342-1.2-.764V.764C0,.342.535,0,1.2,0s1.2.342,1.2.764V14.511C2.392,14.933,1.858,15.275,1.2,15.275Z" fill="#f5f5f5"/>
+    </g>
+  </g>
+</svg>
