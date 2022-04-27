@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.grid-el {
+  @apply flex justify-center items-center border-b;
+}
+.grid-el-white {
+  @apply text-center border-t border-r border-grey hover:bg-white-darkest active:bg-white-darkest dark:hover:bg-primary-darker;
+}
+.grid-el-blue {
+  @apply bg-primary border-white hover:bg-primary-dark active:bg-primary-dark;
+}
+.grid-el-blue h1 {
+  @apply text-white;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+  @apply font-medium;
+  overflow: hidden;
+}
